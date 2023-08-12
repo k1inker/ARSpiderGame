@@ -1,0 +1,134 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ScriptableRenderPass_FrameCleanup_m9DA9FA0F49BBA3C1BD6589F076FD5CCF917A8092 (void);
+extern void ScriptableRenderPass_set_renderPassEvent_m63FA581FFDE1C69C2E1358BD0B8DB30275334960 (void);
+extern void ScriptableRenderPass_set_profilingSampler_mFD238B85B68DED586BA8C678141BEEAF229FBF2D (void);
+extern void ScriptableRenderPass_set_overrideCameraTarget_mC7A5FB7FB9D32C88226E81992DAD058174C99D95 (void);
+extern void ScriptableRenderPass_set_isBlitRenderPass_m563EACE500D80556F75FD1BB240C0BEBCA7933C3 (void);
+extern void ScriptableRenderPass_set_useNativeRenderPass_m1D60C30BB1CF1B4D383FFCABC1F57EA755626895 (void);
+extern void ScriptableRenderPass_set_renderPassQueueIndex_m102EDED778C0A087DF2E7E1C91351EB99AD827FB (void);
+extern void ScriptableRenderPass_set_renderTargetFormat_m35B7A4F02CA819EA819D3A058E4A379EF498FA01 (void);
+extern void ScriptableRenderPass__ctor_mE49D4FF8E68A854367A4081E664B8DBA74E6B752 (void);
+extern void ScriptableRenderPass_ConfigureInput_m15D8C10FC37E33CD358F2E9665ECF5515CB9C687 (void);
+extern void ScriptableRenderPass_ConfigureClear_m5C82128C3ABDD63621501DC012ED91F392ABF123 (void);
+extern void ScriptableRenderPass_Configure_m40B352B4736CBB2C5881ABF6DE9F7ACFB6163A14 (void);
+extern void ScriptableRenderPass_OnCameraCleanup_mB0DD91F1AF1BE153210CB20F7AAB3589C5851043 (void);
+extern void ScriptableRenderPass__cctor_m465560E61068A4DE33DAA7F6B066985E3A6FCD7B (void);
+extern void ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F (void);
+extern void ScriptableRenderer__cctor_m0B30A40E3A57A38387A2FD39C965A02AE7F25473 (void);
+extern void ScriptableRendererFeature_get_isActive_m3A636889F4504C471F26F735F682472FD9B31178 (void);
+extern void ScriptableRendererFeature_OnCameraPreCull_m72D214002675267078D456A2001AA4AD114F5AC6 (void);
+extern void ScriptableRendererFeature_SetupRenderPasses_m66449F5F39EC01AF16EDCE0846C7846869A0D234 (void);
+extern void ScriptableRendererFeature_OnEnable_mE0449961E65B6576BAB12C4978BCB5E21B54B76A (void);
+extern void ScriptableRendererFeature_OnValidate_m574788BF4BB02FA719F99B39232128EC9BB7A8B2 (void);
+extern void ScriptableRendererFeature_SupportsNativeRenderPass_mD4346F159F1164C5B3E43402EFF79D20CE2D7B83 (void);
+extern void ScriptableRendererFeature_RequireRenderingLayers_m508B65EA0D84EE5FB5AF079CE63862CAA1A76A98 (void);
+extern void ScriptableRendererFeature_SetActive_mB6647749AB30629D12175825BB21043CF5FC56E3 (void);
+extern void ScriptableRendererFeature_Dispose_m8CE96FDAA8728C64B3DA17D95E6154048C7E37AA (void);
+extern void ScriptableRendererFeature_Dispose_m72032535D822976722233108DA663B29B40E70C6 (void);
+extern void ScriptableRendererFeature__ctor_mA05EC9569A5DCF48CDD98E1FC5838857E2C4C001 (void);
+extern void TaaPersistentData__cctor_m5D2536D8C9634BAD3DC8BA7A42EE4A4989A5ED70 (void);
+extern void TemporalAA__cctor_mF89676EAD9B4B15C52F26342576D57EE55FBA1EF (void);
+static Il2CppMethodPointer s_methodPointers[32] = 
+{
+	ScriptableRenderPass_FrameCleanup_m9DA9FA0F49BBA3C1BD6589F076FD5CCF917A8092,
+	ScriptableRenderPass_set_renderPassEvent_m63FA581FFDE1C69C2E1358BD0B8DB30275334960,
+	ScriptableRenderPass_set_profilingSampler_mFD238B85B68DED586BA8C678141BEEAF229FBF2D,
+	ScriptableRenderPass_set_overrideCameraTarget_mC7A5FB7FB9D32C88226E81992DAD058174C99D95,
+	ScriptableRenderPass_set_isBlitRenderPass_m563EACE500D80556F75FD1BB240C0BEBCA7933C3,
+	ScriptableRenderPass_set_useNativeRenderPass_m1D60C30BB1CF1B4D383FFCABC1F57EA755626895,
+	ScriptableRenderPass_set_renderPassQueueIndex_m102EDED778C0A087DF2E7E1C91351EB99AD827FB,
+	ScriptableRenderPass_set_renderTargetFormat_m35B7A4F02CA819EA819D3A058E4A379EF498FA01,
+	ScriptableRenderPass__ctor_mE49D4FF8E68A854367A4081E664B8DBA74E6B752,
+	ScriptableRenderPass_ConfigureInput_m15D8C10FC37E33CD358F2E9665ECF5515CB9C687,
+	ScriptableRenderPass_ConfigureClear_m5C82128C3ABDD63621501DC012ED91F392ABF123,
+	ScriptableRenderPass_Configure_m40B352B4736CBB2C5881ABF6DE9F7ACFB6163A14,
+	ScriptableRenderPass_OnCameraCleanup_mB0DD91F1AF1BE153210CB20F7AAB3589C5851043,
+	NULL,
+	ScriptableRenderPass__cctor_m465560E61068A4DE33DAA7F6B066985E3A6FCD7B,
+	ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F,
+	ScriptableRenderer__cctor_m0B30A40E3A57A38387A2FD39C965A02AE7F25473,
+	ScriptableRendererFeature_get_isActive_m3A636889F4504C471F26F735F682472FD9B31178,
+	NULL,
+	ScriptableRendererFeature_OnCameraPreCull_m72D214002675267078D456A2001AA4AD114F5AC6,
+	NULL,
+	ScriptableRendererFeature_SetupRenderPasses_m66449F5F39EC01AF16EDCE0846C7846869A0D234,
+	ScriptableRendererFeature_OnEnable_mE0449961E65B6576BAB12C4978BCB5E21B54B76A,
+	ScriptableRendererFeature_OnValidate_m574788BF4BB02FA719F99B39232128EC9BB7A8B2,
+	ScriptableRendererFeature_SupportsNativeRenderPass_mD4346F159F1164C5B3E43402EFF79D20CE2D7B83,
+	ScriptableRendererFeature_RequireRenderingLayers_m508B65EA0D84EE5FB5AF079CE63862CAA1A76A98,
+	ScriptableRendererFeature_SetActive_mB6647749AB30629D12175825BB21043CF5FC56E3,
+	ScriptableRendererFeature_Dispose_m8CE96FDAA8728C64B3DA17D95E6154048C7E37AA,
+	ScriptableRendererFeature_Dispose_m72032535D822976722233108DA663B29B40E70C6,
+	ScriptableRendererFeature__ctor_mA05EC9569A5DCF48CDD98E1FC5838857E2C4C001,
+	TaaPersistentData__cctor_m5D2536D8C9634BAD3DC8BA7A42EE4A4989A5ED70,
+	TemporalAA__cctor_mF89676EAD9B4B15C52F26342576D57EE55FBA1EF,
+};
+static const int32_t s_InvokerIndices[32] = 
+{
+	4956,
+	4923,
+	4956,
+	4858,
+	4858,
+	4858,
+	4923,
+	4956,
+	6333,
+	4923,
+	2306,
+	2601,
+	4956,
+	0,
+	9763,
+	4956,
+	9763,
+	6130,
+	0,
+	2582,
+	0,
+	2582,
+	6333,
+	6333,
+	6130,
+	951,
+	4858,
+	6333,
+	4858,
+	6333,
+	9763,
+	9763,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_RenderPipelines_Universal_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_RenderPipelines_Universal_Runtime_CodeGenModule = 
+{
+	"Unity.RenderPipelines.Universal.Runtime.dll",
+	32,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
